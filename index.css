@@ -4,12 +4,48 @@ body {
     padding: 0;
 }
 
+.text-bold {
+    font-weight:bold;
+}
 
+.text-red {
+    color:red;
+    font-weight:bold;
+ }
+
+.age-restriction {
+    border:1px solid black;
+    border-radius:0.3rem;
+    padding:4px;
+    margin: 0 1rem;
+}
 header {
     display:flex;
     align-items:center;
     justify-content:space-between;
     padding: 0 1rem;
+}
+.btn {
+    background: red;
+    color:white;
+    display:inline-block;
+}
+
+.btn-xl {
+    font-size: 1.5rem;
+    border-radius:0.7rem;
+    padding:1rem 1.5rem;
+    margin:1rem 0;
+}
+.btn-xl i {
+    margin-left:-0.2rem;
+    margin-right: 0.6rem;
+}
+.btn-l {
+    font-size: 1.2rem;
+    border-radius:0.5rem;
+    padding:0.9rem 1.4rem;
+    margin:0.9rem 0; 
 }
 
 header h1,header div {
@@ -63,7 +99,17 @@ h1 {
     flex-direction:column;
     justify-content: center;
  }
+.rating-container {
+    color: red;
+}
+main h2 {
+    font-size:2.8rem;
+    margin:1.5rem 0;
+}
 
- .text-red {
-    color:red;
- }
+.details-container {
+    margin: 1vh 0;
+}
+.description {
+    width:50%;
+}
