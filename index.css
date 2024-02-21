@@ -182,9 +182,23 @@ footer div:first-child {
     flex-grow:1;
 }
 
-footer div {
-    flex-basis:20%;
-}
 footer nav a:first-child {
     margin-left:0;
+}
+@media (max-width:900px) {
+    .description {
+        width:auto;
+    }
+    header {
+        flex-wrap:wrap;
+    }
+
+    header nav {
+        order:3;
+        width:100%;
+        text-align:center;
+    }
+    .section-content {
+        overflow:auto;
+    }
 }
